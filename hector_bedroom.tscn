@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/sprites/hector/Hector_v2_bmw.png" type="Texture" id=1]
+[ext_resource path="res://assets/sprites/backgrounds/hector_bedroom/hector_bedroom.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="bedroom" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Hector" type="Sprite" parent="."]
+position = Vector2( -32.7109, 316.649 )
+texture = ExtResource( 1 )
+offset = Vector2( 174.835, -134.335 )
